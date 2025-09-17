@@ -1,13 +1,13 @@
 # Production Forecasting
 
-## 1.1 General Information and Purpose
+## General Information and Purpose
 - **Service Name/Title:** `production_forecasting`
 - **Description and purpose:** Accurately forecast energy production from residential prosumers to assess flexibility capabilities and support market participation decisions.
 - **Owner/Contact Information:** ICCS
 
 ---
 
-## 1.2 Functional Requirements
+## Functional Requirements
 1. Collect and process real-time data from photovoltaic (PV) systems and smart meters.  
 2. Access historical production data provided by energy suppliers.  
 3. Perform data pre-processing, including cleaning and normalization.  
@@ -17,7 +17,7 @@
 
 ---
 
-## 1.3 Non-Functional Requirements
+## Non-Functional Requirements
 - Forecasts should be available in real-time or near real-time (within a few seconds).  
 - Accuracy of production forecasts should be maintained at a high level.  
 - System uptime: minimum 99.9%.  
@@ -26,7 +26,7 @@
 
 ---
 
-## 1.4 Service Interfaces
+## Service Interfaces
 
 ### Endpoint 1 — Train Production Forecasting Model
 - **URL:** `/forecast/production/train`  
@@ -106,7 +106,7 @@
 
 ---
 
-## 1.5 UI Mock-ups
+## UI Mock-ups
 The user interface (embedded in the Aggregator Platform) should allow users to:  
 - Input start and end time for forecasts.  
 - Select granularity.  
@@ -121,7 +121,7 @@ UI elements:
 
 ---
 
-## 1.6 Data Model
+## Data Model
 
 ### Entities and Relationships
 - **Users** manage **Houses**.  
@@ -136,7 +136,7 @@ UI elements:
 
 ---
 
-## 1.7 Integration and Dependencies
+## Integration and Dependencies
 
 ### Integration
 - **LFM API Interface:** Forecast outputs support bid formation and pricing.  
@@ -169,7 +169,7 @@ UI elements:
 
 ---
 
-## 1.8 Security and Privacy
+## Security and Privacy
 - **Data Sensitivity:** Customer-level forecasts, model metadata, weather data.  
 - **Encryption:** TLS 1.2+ in transit, AES-256 at rest, encrypted backups.  
 - **RBAC:** Operator, Administrator, Analyst roles.  
