@@ -177,8 +177,6 @@ UI elements:
 - **Anomaly Detection:** Detects unusual requests, injections, unauthorized access.  
 
 ---
-
-## 1.9 Pre-Demo Phase WP5
 - Dataset: Dingle community, Ireland (StoreNet project).  
 - 20 residential buildings, 10 with PVs (2–2.2 kWp).  
 - High-resolution weather data (1-min, aggregated to 15-min).  
